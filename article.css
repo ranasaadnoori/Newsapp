@@ -1,0 +1,39 @@
+main {
+    padding: 0 10%;
+    padding-top: 50px;
+    background-color: rgba(245, 246,250, 0.8)
+}
+article{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    margin: 20px 0px 20px 0px;
+    padding: 14px;
+    border: 1px solid #e5e9f2;
+    border-radius: 4px;
+}
+article #text{
+    margin-left: 14px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+article time{
+color: #393fd2;
+font-weight: bold;
+position: absolute;
+bottom: 14px;
+
+}
+article h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+article #voter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
