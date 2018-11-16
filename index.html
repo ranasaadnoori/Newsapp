@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/downvote.svg">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <header>
+        <div><img id="mag" src="./assets/images/logo.png" alt="logo" width="100px" height="75px"></div>
+            <div class="search-box">
+            <img src="./assets/images/mag.png" alt="search">
+            <input placeholder="search a topic" type="text" name="" id="search">
+        </div>
+    </header>
+    <main id="News">
+            <article>
+                    <img src="https://unsplash.it/124/124" width="200px" height="150px">
+                    <div id="text">
+                            <h1>${article.title}</h1>
+                            <p>${article.description}</p>
+                            <time>${article.publishedAt} </time>
+                        </div>
+                    <div id="voter">
+                            <button id="upvot"><img height="13px" src="./assets/images/upvote.svg" alt=""></button>
+                            <div id="counter">0</div>
+                            <button id="dwnvot"><img height="13px" src="./assets/images/downvote.svg" alt=""></button>
+                    </div>
+                </article>
+    </main>
+                    
+</html>
+                    
